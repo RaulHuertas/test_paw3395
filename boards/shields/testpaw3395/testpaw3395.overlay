@@ -25,9 +25,7 @@
         columns = <3>; // Length of the "col-gpios" array
         rows = <2>; // Length of the "row-gpios" array
         map = <
-        //   Key 1 | Key 2 | Key 3
             RC(0,0) RC(0,1) RC(0,2)
-        //   Key 4 | Key 5 | Key 6
             RC(1,0) RC(1,1) RC(1,2)
     };
 
@@ -43,3 +41,7 @@
         // Other chosen items
     };
 };
+
+
+
+

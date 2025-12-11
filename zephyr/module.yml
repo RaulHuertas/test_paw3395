@@ -1,4 +1,4 @@
-name testpaw3395
+name: testpaw3395
 build:
   settings:
     board_root: .
