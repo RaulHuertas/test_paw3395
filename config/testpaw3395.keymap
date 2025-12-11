@@ -61,7 +61,7 @@
             >;
         };
 
-        layer_4 {
+        layer_6 {
             bindings = <
                 &kp TAB     &kp Q     &kp W       
                 &kp E       &kp R     &kp T           
