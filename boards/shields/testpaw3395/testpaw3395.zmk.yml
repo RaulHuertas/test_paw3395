@@ -1,0 +1,12 @@
+file_format: "1"
+id: corne
+name: Corne
+type: shield
+url: https://github.com/foostan/crkbd/
+requires: [seeeduino_xiao_ble]
+exposes: []
+features:
+  - keys
+  - trackball
+siblings:
+  - testpaw3395

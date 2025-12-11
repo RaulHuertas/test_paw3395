@@ -1,0 +1,6 @@
+if SHIELD_TESTPAW3395
+# Name must be less than 16 characters long!
+config ZMK_TESTPAW3395
+    default "TestPAW3395"
+
+endif
