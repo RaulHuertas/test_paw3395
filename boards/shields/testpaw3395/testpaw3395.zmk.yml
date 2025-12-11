@@ -1,8 +1,8 @@
 file_format: "1"
-id: corne
-name: Corne
+id: testpaw3395
+  name: testpaw3395
 type: shield
-url: https://github.com/foostan/crkbd/
+url: https://github.com/RaulHuertas/test_paw3395
 requires: [seeeduino_xiao_ble]
 exposes: []
 features:
