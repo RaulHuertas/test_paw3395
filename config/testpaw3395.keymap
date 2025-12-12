@@ -21,6 +21,7 @@
         device = <&trackball0>;
         input-processors = <&zip_xy_scaler 4 2>;
         scroller {
+            layers = <1 3>;
             input-processors = <&zip_xy_to_scroll_mapper>, <&zip_scroll_scaler 2 5>, <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT)>;
         };
     };
