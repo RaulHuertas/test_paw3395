@@ -3,12 +3,8 @@
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 
 &spi2 {
-	compatible = "nordic,nrf-spim";
     status = "okay";
-	pinctrl-0 = <&spi2_default>;
-	pinctrl-1 = <&spi2_sleep>;
-	pinctrl-names = "default", "sleep";
-	cs-gpios = <&gpio0 4 GPIO_ACTIVE_LOW>;
+	cs-gpios = <&gpio0 5 GPIO_ACTIVE_LOW>;
 
 	trackball0: trackball@0 {
 		compatible = "pixart,paw3395";
