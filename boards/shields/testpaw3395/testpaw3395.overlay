@@ -1,5 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h> // Put this with the other includes at the top of your overlay
-
+#include "testpaw3395-layouts.dtsi"
 
 / {
     kscan0: kscan0 {
@@ -38,6 +38,7 @@
     };
     
     chosen {
+        zmk,kscan = &kscan0;
         zmk,physical-layout = &physical_layout0;
         // Other chosen items
     };
