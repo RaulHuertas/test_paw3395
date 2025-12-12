@@ -31,10 +31,7 @@
 
 / {
 
-    mouse_input_listener {
-        compatible = "zmk,input-listener";
-        device = <&trackball0>;
-    };
+
     kscan0: kscan0 {
         compatible = "zmk,kscan-gpio-matrix";
         diode-direction = "row2col";
