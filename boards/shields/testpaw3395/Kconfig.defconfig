@@ -6,5 +6,15 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
+config ZMK_POINTING
+    default y
+config SPI
+    default y
 
+config PAW3395
+    default y
+#CONFIG_INPUT=y
+#
+#CONFIG_ZMK_POINTING=y
+#CONFIG_PAW3395=y
 endif
