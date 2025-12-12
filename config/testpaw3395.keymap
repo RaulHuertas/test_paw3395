@@ -17,6 +17,7 @@
 / {
 
     mou0_mmv_il {
+        status = "okay";
         compatible = "zmk,input-listener";
         device = <&trackball0>;
         input-processors = <&zip_xy_scaler 4 2>;
