@@ -8,10 +8,14 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 config ZMK_POINTING
     default y
+
 config SPI
     default y
 
 config PAW3395
+    default y
+
+config INPUT
     default y
 #CONFIG_INPUT=y
 #
