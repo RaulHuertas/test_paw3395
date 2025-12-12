@@ -2,6 +2,10 @@
 #include "testpaw3395-layouts.dtsi"
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 
+&uart0 {
+	status = "disabled";
+};
+
 &spi2 {
     status = "okay";
 	cs-gpios = <&gpio0 5 GPIO_ACTIVE_LOW>;
@@ -21,6 +25,7 @@
 		evt-type = <INPUT_EV_REL>;
 		x-input-code = <INPUT_REL_X>;
 		y-input-code = <INPUT_REL_Y>;
+        force-awake;
 	};
 };
 
